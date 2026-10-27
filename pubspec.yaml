@@ -1,0 +1,43 @@
+name: esone
+description: "EsOne - Lightweight Essential Tools in One Mobile Application"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.5+1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  flutter_markdown: ^0.6.18
+  image_picker: ^1.0.4
+  math_expressions: ^2.4.0
+  path_provider: ^2.1.6
+  path: ^1.9.1
+  floodfill_image_ihux: ^1.0.3
+  image: ^4.12.0
+  flutter_launcher_icons: ^0.14.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.6
+  
+
+flutter:
+  uses-material-design: true
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/esone_logo.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  adaptive_icon_background: "#000000" # Black background
+  adaptive_icon_foreground: "assets/esone_logo.png"
